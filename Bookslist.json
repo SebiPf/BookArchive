@@ -1,0 +1,112 @@
+{
+    "book": [
+        {
+            "Title": "hdr",
+            "Release": "1995",
+            "Autor": "J.R.R. Tolkin",
+            "Publisher": "hasbro",
+            "ISBN": "1562",
+            "Category": "Fantasy",
+            "Pages": "603"
+        },
+        {
+            "Title": "aaef",
+            "Release": "awf",
+            "Autor": "asd",
+            "Publisher": "awd",
+            "ISBN": "awd",
+            "Category": "Action",
+            "Pages": "603"
+        },
+        {
+            "Title": "harry",
+            "Release": "1996",
+            "Autor": "J K Roling",
+            "Publisher": "idk",
+            "ISBN": "165",
+            "Category": "Action",
+            "Pages": "200"
+        },
+        {
+            "Title": "awds",
+            "Release": "aswad",
+            "Autor": "asdw",
+            "Publisher": "awds",
+            "ISBN": "aawd",
+            "Category": "hoch",
+            "Pages": "360"
+        },
+        {
+            "Title": "wesdf",
+            "Release": "asdse",
+            "Autor": "sefsd",
+            "Publisher": "sesd",
+            "ISBN": "sdfe",
+            "Category": "sefd",
+            "Pages": "200"
+        },
+        {
+            "Title": "asd",
+            "Release": "asd",
+            "Autor": "asd",
+            "Publisher": "asd",
+            "ISBN": "asd",
+            "Category": "Action",
+            "Pages": "200"
+        },
+        {
+            "Title": "asd",
+            "Release": "asd",
+            "Autor": "asd",
+            "Publisher": "asd",
+            "ISBN": "asd",
+            "Category": "Drama",
+            "Pages": "200"
+        },
+        {
+            "Title": "asd",
+            "Release": "asd",
+            "Autor": "asd",
+            "Publisher": "asd",
+            "ISBN": "asd",
+            "Category": "Love",
+            "Pages": "L230"
+        },
+        {
+            "Title": "asd",
+            "Release": "asd",
+            "Autor": "asd",
+            "Publisher": "asd",
+            "ISBN": "asd",
+            "Category": "Love",
+            "Pages": "200"
+        },
+        {
+            "Title": "\u00e4sdg",
+            "Release": "sdrg",
+            "Autor": "dg",
+            "Publisher": "drg",
+            "ISBN": "drg",
+            "Category": "Actiom",
+            "Pages": "500"
+        },
+        {
+            "Title": "asd",
+            "Release": "asd",
+            "Autor": "sd",
+            "Publisher": "asd",
+            "ISBN": "asd",
+            "Category": "Love",
+            "Pages": "500"
+        },
+        {
+            "Title": "asd",
+            "Release": "awd",
+            "Autor": "asd",
+            "Publisher": "awd",
+            "ISBN": "awd",
+            "Category": "Comedy",
+            "Pages": "800"
+        }
+    ]
+}
