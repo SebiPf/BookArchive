@@ -1,29 +1,22 @@
 import json
+from AdminAuth import Authentification
 
-
-
-
-class LoginT:
-    #testusername = input('enter your username')
-    #testpassword = input('enter your password')
+def run_Login():
     
+    
+    testusername = input('enter your username')
+    testpassword = input('enter your password')
+    Authentification
 
-    #LoginAuthentification = False
-    def __init__(self, testpassword, testusername, LoginAuthentification):
-        with open('Admins.json') as json_file:
-            data = json.load(json_file)
-            self.LoginAuthentification = False
-            for p in data['Admin']:
-                if testusername == p['Name'] and testpassword == p['Password']:
-                    self.LoginAuthentification = True
-
-                else:
-                    print('please try again')
-
-
-    def getLoginAuthentification(self):
-        return self.LoginAuthentification
+    LoginAuthentification = False
 
 
 
-            
+    auth = Authentification(testpassword, testusername, LoginAuthentification)
+    #auth = Authentification.getLoginAuthentification
+    auth = auth.getLoginAuthentification()
+    if auth == True:
+        print('you`r now logged in')
+        
+    else:
+        print('please try again')

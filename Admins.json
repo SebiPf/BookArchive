@@ -3,6 +3,10 @@
         {
             "Name": "sebi",
             "Password": "Passwort123"
+        },
+        {
+            "Name": "& C:/Users/Sebas/AppData/Local/Programs/Python/Python39/python.exe c:/Coding/BookArchive/Main.py",
+            "Password": "& C:/Users/Sebas/AppData/Local/Programs/Python/Python39/python.exe c:/Coding/BookArchive/Main.py"
         }
     ]
 }

@@ -1,5 +1,5 @@
 import json
-def run_categoreis():
+def run_categories():
     
     with open('Categorylist.json') as json_file:
         data = json.load(json_file)
