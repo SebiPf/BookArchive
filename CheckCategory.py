@@ -16,6 +16,9 @@ class CheckCategories:
                         print('Category is valid')
                         self.Category = Inputtype
                         checksum = True
+
+                        
+
                 
 
                 if checksum == False:

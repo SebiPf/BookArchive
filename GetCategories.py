@@ -6,4 +6,6 @@ def run_categories():
         for p in data['Categories']:
             print(p['Category'])
 
+    
+
 

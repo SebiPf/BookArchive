@@ -7,6 +7,9 @@ from Login import run_Login
 from AutorSearch import run_Autor_Search
 from GetAutors import run_Autors
 from SearchBook import run_search_book
+from SearchCategory import run_search_Category
+from GetNumberview import run_Number_Viewed
+from CreateAutor import run_Create_Autor
 
 
 
@@ -17,4 +20,7 @@ from SearchBook import run_search_book
 #run_Login()
 #run_Autor_Search()
 #run_Autors()
-run_search_book()
+#run_search_book()
+#run_search_Category()
+#run_Number_Viewed()
+run_Create_Autor()

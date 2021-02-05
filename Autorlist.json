@@ -1,11 +1,32 @@
 {
-  "Autor": [
-    {
-      "Name": "hdr",
-      "LastName": "1995",
-      "Birthdate": "J.R.R. Tolkin",
-      "Gender": "hasbro",
-      "NumberofBooks": 4
-    }
-  ]
+    "Autor": [
+        {
+            "Name": "hdr",
+            "LastName": "1995",
+            "Birthdate": "J.R.R. Tolkin",
+            "Gender": "hasbro",
+            "NumberofBooks": 4
+        },
+        {
+            "Name": "jhon",
+            "LastName": "Bro",
+            "Birthdate": "01.01.1668",
+            "Gender": "Male",
+            "NumberofBooks": 0
+        },
+        {
+            "Name": "jeff",
+            "LastName": "joe",
+            "Birthdate": "10/10/1996",
+            "Gender": "Male",
+            "NumberofBooks": 0
+        },
+        {
+            "Name": "mau",
+            "LastName": "le",
+            "Birthdate": "19/16/1999",
+            "Gender": "30/12/1999",
+            "NumberofBooks": 0
+        }
+    ]
 }

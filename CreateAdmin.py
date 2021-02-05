@@ -1,20 +1,10 @@
 import json
 from AdminAuth import Authentification
-
+from Login import run_Login
 
 def run_Create_Admin():
-    Authentification
-    testusername = input('enter your username')
-    testpassword = input('enter your password')
-    
-
-    LoginAuthentification = False
-
-
-
-    auth = Authentification(testpassword, testusername, LoginAuthentification)
-    #auth = Authentification.getLoginAuthentification
-    auth = auth.getLoginAuthentification()
+    auth = run_Login()
+    print(auth)
     if auth == True:
         print('nice')
         Inputname = input('enter Name: ')

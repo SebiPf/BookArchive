@@ -24,7 +24,7 @@ class Book:
         return self.isbn
 
     def getbooktype(self):
-        return self.bookautor
+        return self.booktype
 
     def getpages(self):
         return self.pages
