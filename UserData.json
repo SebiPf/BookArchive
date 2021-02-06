@@ -1,8 +1,8 @@
 {
-    "User": [
-      {
-        "NumberCategory": 1,
-        "NumberViewed": 4
-      }
-    ]
-  }
+  "User": [
+    {
+      "NumberCategory": 0,
+      "NumberViewed": 0
+    }
+  ]
+}

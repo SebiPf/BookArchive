@@ -134,6 +134,24 @@
             "Publisher": "asd",
             "Release": "1996",
             "Title": "byebye"
+        },
+        {
+            "Autor": "bob",
+            "Category": "Drama",
+            "ISBN": "165",
+            "Pages": "200",
+            "Publisher": "niantic",
+            "Release": "2000",
+            "Title": "whatever"
+        },
+        {
+            "Autor": "bob",
+            "Category": "Drama",
+            "ISBN": "1230",
+            "Pages": "120",
+            "Publisher": "whatever",
+            "Release": "2000",
+            "Title": "wolf"
         }
     ]
 }
