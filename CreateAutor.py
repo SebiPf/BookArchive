@@ -3,15 +3,18 @@ import re
 from AdminAuth import Authentification
 from Login import run_Login
 from CheckDate import run_check_Structure
+from CheckName import run_check_Name
 
 def run_Create_Autor():
     
-    auth = run_Login()
+    LoginAuthentification = False
+    auth = Authentification(LoginAuthentification)
+    auth = auth.getAuthentification()
 
     if auth == True:
         print('nice')
-        InputName = input('Name: ')
-        InputLastName = input('Last Name: ')
+        InputName = run_check_Name()
+        InputLastName = run_check_Name()
         #Date = input('Birthdate: ')
         InputBirthdate = run_check_Structure()
 
@@ -36,4 +39,4 @@ def run_Create_Autor():
   
         write_json(data) 
     else:
-        print('You need to be logged in to Create a Autor')
+        print('please log in')

@@ -8,7 +8,9 @@ from Login import run_Login
 
 def run_create_book():
 
-    auth = run_Login()
+    LoginAuthentification = False
+    auth = Authentification(LoginAuthentification)
+    auth = auth.getAuthentification()
     if auth == True:
 
         Inputtitle = input('title')
@@ -60,5 +62,7 @@ def run_create_book():
             
         with open('Autorlist.json'  , 'w') as file:
             json.dump(data, file, indent=2)
+    else:
+        print('please log in')
         
         

@@ -1,8 +1,9 @@
 {
-    "Admin": [
-        {
-            "Name": "sebi",
-            "Password": "Passwort123"
-        }
-    ]
+  "Admin": [
+    {
+      "Name": "sebi",
+      "Password": "Passwort123",
+      "Auth": false
+    }
+  ]
 }

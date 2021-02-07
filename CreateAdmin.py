@@ -1,9 +1,11 @@
 import json
 from AdminAuth import Authentification
-from Login import run_Login
+
 
 def run_Create_Admin():
-    auth = run_Login()
+    LoginAuthentification = False
+    auth = Authentification(LoginAuthentification)
+    auth = auth.getAuthentification()
     print(auth)
     if auth == True:
         print('nice')
@@ -18,10 +20,11 @@ def run_Create_Admin():
             data = json.load(json_file) 
             temp = data['Admin'] 
             y = {"Name": Inputname, 
-                 "Password": Inputpassword
+                 "Password": Inputpassword,
+                 "Auth": False
                 }  
             temp.append(y) 
   
         write_json(data) 
     else:
-        print('not nice')
+        print('Please log in')
