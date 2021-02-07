@@ -26,12 +26,13 @@ while exitprogramm == False:
     print('5. Show all Autors')
     print('6. Show all Books')
     print('7. Show Number of viewed Books/Categories')
-    print('8. Create a Book(Needs Admin rights)')
-    print('9. Create a Autor(Needs Admin rights)')
-    print('10. Create a Category(Needs Admin rights)')
-    print('11. Create a Admin(Needs Admin rights)')
-    print('12. Exite the Programm')
-    selection = input('Type in the Number here: ')
+    print('8. Log in as Admin')
+    print('9. Create a Book(Needs Admin rights)')
+    print('10. Create a Autor(Needs Admin rights)')
+    print('11. Create a Category(Needs Admin rights)')
+    print('12. Create a Admin(Needs Admin rights)')
+    print('13. Exite the Programm')
+    selection = input('Type the Number here: ')
     selection = int(selection)
     #print(selection)
     if selection == 1:
@@ -56,18 +57,21 @@ while exitprogramm == False:
         run_Number_Viewed()
         run_restart()
     if selection == 8:
-        run_create_book()
+        run_Login()
         run_restart()
     if selection == 9:
-        run_Create_Autor()
+        run_create_book()
         run_restart()
     if selection == 10:
-        run_create_Category()
+        run_Create_Autor()
         run_restart()
     if selection == 11:
-        run_Create_Admin()
+        run_create_Category()
         run_restart()
     if selection == 12:
+        run_Create_Admin()
+        run_restart()
+    if selection == 13:
         exitprogramm = run_Exit()
         
 
