@@ -1,5 +1,5 @@
 import json
-from book import Book
+from Book import Book
 from GetCategories import run_categories
 from SearchBook import run_search_book
 

@@ -2,10 +2,7 @@ import json
 from AdminAuth import Authentification
 
 def run_Login():
-    
-    
-    
-
+   
     with open('Admins.json') as json_file:
             data = json.load(json_file)
             auth = False

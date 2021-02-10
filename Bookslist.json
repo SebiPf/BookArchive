@@ -152,6 +152,42 @@
             "Publisher": "whatever",
             "Release": "2000",
             "Title": "wolf"
+        },
+        {
+            "Autor": "asd",
+            "Category": "Drama",
+            "ISBN": "9683",
+            "Pages": "200",
+            "Publisher": "niantick",
+            "Release": "1996",
+            "Title": "help"
+        },
+        {
+            "Autor": "asd",
+            "Category": "",
+            "ISBN": "754",
+            "Pages": "200",
+            "Publisher": "asdgg",
+            "Release": "200",
+            "Title": "help2"
+        },
+        {
+            "Autor": "asd",
+            "Category": "",
+            "ISBN": "53",
+            "Pages": "200",
+            "Publisher": "asd",
+            "Release": "5000",
+            "Title": "das"
+        },
+        {
+            "Autor": "asd",
+            "Category": "No Category",
+            "ISBN": "1654",
+            "Pages": "200",
+            "Publisher": "asd",
+            "Release": "1995",
+            "Title": "boy"
         }
     ]
 }

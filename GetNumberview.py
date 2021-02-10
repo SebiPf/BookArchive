@@ -1,9 +1,5 @@
 import json
 
-
-
-
-
 def run_Number_Viewed():
     with open('UserData.json') as json_file:
         data = json.load(json_file)

@@ -5,6 +5,7 @@ from GetAutors import run_Autors
 from CheckPages import run_check_Pages
 from AdminAuth import Authentification
 from Login import run_Login
+from DefaultCategory import Default
 
 def run_create_book():
 
@@ -24,13 +25,19 @@ def run_create_book():
 
         Inputpublisher = input('Publisher')
         Inputisbn13 = input('ISBN-13')
-        print('please choose one of the following Categories')
+        print('please type one of the following Categories')
         run_categories()
         Inputtype = input('Category: ')
-        if Inputtype == ():
-            Inputtype = ('No Category')
-        Check = CheckCategories(Inputtype)
-        Inputtype = Check.getCategory()
+        if Inputtype == (''):
+            Inputtype = None
+        if Inputtype != None:
+            Check = CheckCategories(Inputtype)
+            Inputtype = Check.getCategory()
+        else:
+            Check = Default(Inputtype)
+            Inputtype = Check.getDefault()
+
+        
         Inputlength = run_check_Pages()
 
         def write_json(data, filename='Bookslist.json'): 
