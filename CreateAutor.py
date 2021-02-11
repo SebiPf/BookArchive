@@ -21,6 +21,16 @@ def run_Create_Autor():
 
 
         InputGender = input('Gender: ')
+
+        with open('Autorlist.json') as json_file:
+            data = json.load(json_file)
+        for p in data['Autor']:
+            anzahl = p['AutorNumber']
+        anzahl = anzahl + '1'
+
+
+
+
         def write_json(data, filename='Autorlist.json'): 
             with open(filename,'w') as f: 
                 json.dump(data, f, indent=4) 
@@ -33,7 +43,8 @@ def run_Create_Autor():
                 "LastName": InputLastName,
                 "Birthdate": InputBirthdate,
                 "Gender": InputGender,
-                "NumberofBooks": 0
+                "NumberofBooks": 0,
+                "Autornumber": anzahl
                 }  
             temp.append(y) 
   

@@ -2,6 +2,7 @@ import json
 from Book import Book
 from GetCategories import run_categories
 from SearchBook import run_search_book
+from AdminAuth import Authentification
 
 def run_search_Category():
     check = False
@@ -27,11 +28,20 @@ def run_search_Category():
             print('Those are your Options')
             run_categories()
 
+        LoginAuthentification = False
+        auth = Authentification(LoginAuthentification)
+        auth = auth.getAuthentification()
+
         with open('UserData.json') as json_file: 
             data = json.load(json_file)
+        
+        if auth == True:
+            for p in data['Admin']:
+                p['NumberCategory'] = p['NumberCategory'] + 1
 
-        for p in data['User']:
-            p['NumberCategory'] = p['NumberCategory'] + 1 
+        else:
+            for p in data['User']:
+                p['NumberCategory'] = p['NumberCategory'] + 1 
     
         with open('UserData.json'  , 'w') as file:
             json.dump(data, file, indent=2)

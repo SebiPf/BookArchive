@@ -9,7 +9,12 @@ def run_create_Category():
     if auth == True:
 
         InputCategory = input('Category')
-        
+
+        with open('Categorylist.json') as json_file:
+            data = json.load(json_file)
+        for p in data['Category']:
+            anzahl = p['CategoryNumber']
+        anzahl = anzahl +1 
 
         def write_json(data, filename='Categorylist.json'): 
             with open(filename,'w') as f: 
@@ -19,7 +24,8 @@ def run_create_Category():
         with open('Categorylist.json') as json_file: 
             data = json.load(json_file) 
             temp = data['Categories'] 
-            y = {"Category": InputCategory
+            y = {"Category": InputCategory,
+                "CategoryNumber": anzahl
                 }  
             temp.append(y) 
         

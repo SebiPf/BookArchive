@@ -1,22 +1,28 @@
 {
     "Categories": [
         {
-            "Category": "Fantasy"
+            "Category": "Fantasy",
+            "CategoryNumber": 1
         },
         {
-            "Category": "Action"
+            "Category": "Action",
+            "CategoryNumber": 2
         },
         {
-            "Category": "Love"
+            "Category": "Love",
+            "CategoryNumber": 3
         },
         {
-            "Category": "Drama"
+            "Category": "Drama",
+            "CategoryNumber": 4
         },
         {
-            "Category": "Comedy"
+            "Category": "Comedy",
+            "CategoryNumber": 5
         },
         {
-            "Category": "Heavy"
+            "Category": "Heavy",
+            "CategoryNumber": 6
         }
     ]
 }

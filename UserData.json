@@ -2,7 +2,15 @@
   "User": [
     {
       "NumberCategory": 0,
-      "NumberViewed": 0
+      "NumberViewed": 0,
+      "UniqueNumber": 1
+    }
+  ],
+  "Admin": [
+    {
+      "NumberCategory": 0,
+      "NumberViewed": 0,
+      "UniqueNumber": 2
     }
   ]
 }

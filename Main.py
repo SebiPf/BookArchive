@@ -36,47 +36,51 @@ class Main:
         print('12. Create a Admin(Needs Admin rights)')
         print('13. Exite the Programm')
         selection = input('Type the Number here: ')
-        selection = int(selection)
+        #selection = int(selection)
         #print(selection)
-        if selection == 1:
+        if selection == '1':
             run_search_book()
             run_restart()
-        if selection == 2:
+        elif selection == '2':
             run_search_Category()
             run_restart()
-        if selection == 3:
+        elif selection == '3':
             run_Autor_Search()
             run_restart()
-        if selection == 4:
+        elif selection == '4':
             run_categories()
             run_restart()
-        if selection == 5:
+        elif selection == '5':
             run_Autors()
             run_restart()
-        if selection == 6:
+        elif selection == '6':
             run_Book_list()
             run_restart()
-        if selection == 7:
+        elif selection == '7':
             run_Number_Viewed()
             run_restart()
-        if selection == 8:
+        elif selection == '8':
             run_Login()
             run_restart()
-        if selection == 9:
+        elif selection == '9':
             run_create_book()
             run_restart()
-        if selection == 10:
+        elif selection == '10':
             run_Create_Autor()
             run_restart()
-        if selection == 11:
+        elif selection == '11':
             run_create_Category()
             run_restart()
-        if selection == 12:
+        elif selection == '12':
             run_Create_Admin()
             run_restart()
-        if selection == 13:
+        elif selection == '13':
             exitprogramm = run_Exit()
-            
+        
+        else:
+            print('Please type in a Number')
+            run_restart()
+
 
 
     #run_create_book()
