@@ -2,9 +2,9 @@ import json
 from AdminAuth import Authentification
 
 def run_Number_Viewed():
-    LoginAuthentification = False
-    auth = Authentification(LoginAuthentification)
-    auth = auth.getAuthentification()
+    loginauthentification = False
+    auth = Authentification(loginauthentification)
+    auth = auth.getauthentification()
 
     with open('UserData.json') as json_file:
         data = json.load(json_file)

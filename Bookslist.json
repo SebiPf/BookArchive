@@ -1,193 +1,112 @@
 {
     "book": [
         {
-            "Autor": "J.R.R. Tolkin",
+            "Autor": "Obama",
+            "Category": "Politics",
+            "ISBN": "978-3328600626",
+            "Pages": "1024",
+            "Publisher": "Penguin",
+            "Release": "2020",
+            "Title": "Ein verhei\u00dfenes Land"
+        },
+        {
+            "Autor": "Rowling",
             "Category": "Fantasy",
-            "ISBN": "1562",
-            "Pages": "603",
-            "Publisher": "hasbro",
-            "Release": "1995",
-            "Title": "hdr"
+            "ISBN": "978-3551354013",
+            "Pages": "336",
+            "Publisher": "Carlsen",
+            "Release": "2005",
+            "Title": "Harry Potter und der Stein der Weisen"
         },
         {
-            "Autor": "hdr",
-            "Category": "Action",
-            "ISBN": "awd",
-            "Pages": "603",
-            "Publisher": "awd",
-            "Release": "awf",
-            "Title": "aaef"
+            "Autor": "Rowling",
+            "Category": "Fantasy",
+            "ISBN": "978-3551354037",
+            "Pages": "448",
+            "Publisher": "Carlsen",
+            "Release": "2007",
+            "Title": "Harry Potter und der Gefangene von Askaban"
         },
         {
-            "Autor": "hdr",
-            "Category": "Action",
-            "ISBN": "165",
-            "Pages": "200",
-            "Publisher": "idk",
-            "Release": "1996",
-            "Title": "harry"
+            "Autor": "Rowling",
+            "Category": "Fantasy",
+            "ISBN": "978-3551354051",
+            "Pages": "960",
+            "Publisher": "Carlsen",
+            "Release": "2009",
+            "Title": "Harry Potter und der Orden des Ph\u00f6nix"
         },
         {
-            "Autor": "asdw",
-            "Category": "hoch",
-            "ISBN": "aawd",
-            "Pages": "360",
-            "Publisher": "awds",
-            "Release": "aswad",
-            "Title": "awds"
+            "Autor": "Rowling",
+            "Category": "Fantasy",
+            "ISBN": "978-3551354075",
+            "Pages": "752",
+            "Publisher": "Carlsen",
+            "Release": "2011",
+            "Title": "Harry Potter und die Heiligt\u00fcmer des Todes"
         },
         {
-            "Autor": "hdr",
-            "Category": "sefd",
-            "ISBN": "sdfe",
-            "Pages": "200",
-            "Publisher": "sesd",
-            "Release": "asdse",
-            "Title": "wesdf"
+            "Autor": "Tolkien",
+            "Category": "Fantasy",
+            "ISBN": "978-3608939811",
+            "Pages": "608",
+            "Publisher": "Klett-Cotta",
+            "Release": "2017",
+            "Title": "Der Herr der Ringe - Die Gef\u00e4hrten"
         },
         {
-            "Autor": "asd",
-            "Category": "Action",
-            "ISBN": "asd",
-            "Pages": "200",
-            "Publisher": "asd",
-            "Release": "asd",
-            "Title": "asd"
+            "Autor": "Tolkien",
+            "Category": "Fantasy",
+            "ISBN": "978-3608939828",
+            "Pages": "510",
+            "Publisher": "Klett-Cotta",
+            "Release": "2018",
+            "Title": "Der Herr der Ringe - Die zwei T\u00fcrme"
         },
         {
-            "Autor": "asdf",
-            "Category": "Drama",
-            "ISBN": "asd",
-            "Pages": "200",
-            "Publisher": "asd",
-            "Release": "asd",
-            "Title": "asd"
+            "Autor": "Tolkien",
+            "Category": "Fantasy",
+            "ISBN": "978-3608939835",
+            "Pages": "444",
+            "Publisher": "Klett-Cotta",
+            "Release": "2018",
+            "Title": "Der Herr der Ringe - Die R\u00fcckkehr des K\u00f6nigs"
         },
         {
-            "Autor": "hdr",
-            "Category": "Love",
-            "ISBN": "asd",
-            "Pages": "L230",
-            "Publisher": "asd",
-            "Release": "asd",
-            "Title": "asd"
-        },
-        {
-            "Autor": "asd",
-            "Category": "Love",
-            "ISBN": "asd",
-            "Pages": "200",
-            "Publisher": "asd",
-            "Release": "asd",
-            "Title": "asd"
-        },
-        {
-            "Autor": "dg",
-            "Category": "Actiom",
-            "ISBN": "drg",
-            "Pages": "500",
-            "Publisher": "drg",
-            "Release": "sdrg",
-            "Title": "\u00e4sdg"
-        },
-        {
-            "Autor": "hdr",
-            "Category": "Love",
-            "ISBN": "asd",
-            "Pages": "500",
-            "Publisher": "asd",
-            "Release": "asd",
-            "Title": "asd"
-        },
-        {
-            "Autor": "asd",
+            "Autor": "Kinney",
             "Category": "Comedy",
-            "ISBN": "awd",
-            "Pages": "800",
-            "Publisher": "awd",
-            "Release": "awd",
-            "Title": "asd"
+            "ISBN": "978-3843211086",
+            "Pages": "448",
+            "Publisher": "Baumhaus Taschenbuch",
+            "Release": "2019",
+            "Title": "Gregs Tagebuch - Band 1 und 2"
         },
         {
-            "Autor": "hdr",
-            "Category": "Drama",
-            "ISBN": "651",
-            "Pages": "100",
-            "Publisher": "asd",
-            "Release": "1996",
-            "Title": "hallo"
+            "Autor": "Kinney",
+            "Category": "Comedy",
+            "ISBN": "978-3843200721",
+            "Pages": "448",
+            "Publisher": "Baumhaus Taschenbuch",
+            "Release": "2020",
+            "Title": "Gregs Tagebuch \u2013 Band 3 und 4"
         },
         {
-            "Autor": "hdr",
-            "Category": "Drama",
-            "ISBN": "123",
-            "Pages": "100",
-            "Publisher": "dunno",
-            "Release": "1992",
-            "Title": "try"
+            "Autor": "Michelle",
+            "Category": "Politics",
+            "ISBN": "978-1524763145",
+            "Pages": "464",
+            "Publisher": "Crown",
+            "Release": "2021",
+            "Title": "Becoming"
         },
         {
-            "Autor": "hdr",
-            "Category": "Drama",
-            "ISBN": "15",
-            "Pages": "100",
-            "Publisher": "asd",
-            "Release": "1996",
-            "Title": "byebye"
-        },
-        {
-            "Autor": "bob",
-            "Category": "Drama",
-            "ISBN": "165",
-            "Pages": "200",
-            "Publisher": "niantic",
-            "Release": "2000",
-            "Title": "whatever"
-        },
-        {
-            "Autor": "bob",
-            "Category": "Drama",
-            "ISBN": "1230",
-            "Pages": "120",
-            "Publisher": "whatever",
-            "Release": "2000",
-            "Title": "wolf"
-        },
-        {
-            "Autor": "asd",
-            "Category": "Drama",
-            "ISBN": "9683",
-            "Pages": "200",
-            "Publisher": "niantick",
-            "Release": "1996",
-            "Title": "help"
-        },
-        {
-            "Autor": "asd",
-            "Category": "",
-            "ISBN": "754",
-            "Pages": "200",
-            "Publisher": "asdgg",
-            "Release": "200",
-            "Title": "help2"
-        },
-        {
-            "Autor": "asd",
-            "Category": "",
-            "ISBN": "53",
-            "Pages": "200",
-            "Publisher": "asd",
-            "Release": "5000",
-            "Title": "das"
-        },
-        {
-            "Autor": "asd",
-            "Category": "No Category",
-            "ISBN": "1654",
-            "Pages": "200",
-            "Publisher": "asd",
-            "Release": "1995",
-            "Title": "boy"
+            "Autor": "Rowling",
+            "Category": "Fantasy",
+            "ISBN": "978-3551354044",
+            "Pages": "704",
+            "Publisher": "Carlsen",
+            "Release": "2008",
+            "Title": "Harry Potter und der Feuerkelch"
         }
     ]
 }

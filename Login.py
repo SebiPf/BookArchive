@@ -1,5 +1,5 @@
 import json
-from AdminAuth import Authentification
+
 
 def run_Login():
    
@@ -7,8 +7,8 @@ def run_Login():
             data = json.load(json_file)
             auth = False
             while auth == False:
-                testusername = input('enter your username')
-                testpassword = input('enter your password')
+                testusername = input('Enter your username: ')
+                testpassword = input('Enter your password: ')
             
                 for p in data['Admin']:
                     if testusername == p['Name'] and testpassword == p['Password']:

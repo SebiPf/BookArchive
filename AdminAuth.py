@@ -2,24 +2,24 @@ import json
 
 class Authentification:
     
-    def __init__(self, LoginAuthentification):
+    def __init__(self, loginAuthentification):
 
         with open('Admins.json') as json_file:
             data = json.load(json_file)
-            LoginAuthentification = False
+            loginAuthentification = False
 
             for p in data['Admin']:
                 if p['Auth'] == True:
-                    self.LoginAuthentification = True
+                    self.loginAuthentification = True
                     break
                     
                 else:
-                    print('please log in')
-                    self.LoginAuthentification = False
+                    #print('please log in')
+                    self.loginAuthentification = False
 
-    def getAuthentification(self):
+    def getauthentification(self):
     
-        return self.LoginAuthentification
+        return self.loginAuthentification
 
 
 

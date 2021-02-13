@@ -2,26 +2,35 @@ import json
 from Book import Book
 def run_Autors():
     
-    with open('Autorlist.json') as json_file:
+    with open('AutorList.json') as json_file:
         data = json.load(json_file)
         for p in data['Autor']:
             print(p['Name'])
-            autor=p['Name']
+            name = p['Name']
+            lastname = p['LastName']
             print(p['LastName'])
 
-            with open('Bookslist.json') as json_file:
+            with open('BooksList.json') as json_file:
     
                 data = json.load(json_file)
-            AutorArray = []
+            autorarray = []
             for p in data['book']:
                 book = Book(p['Title'], p['Release'], p['Autor'], p['Publisher'], p['ISBN'], p['Category'], p['Pages'])
                 title = book.gettitle()
                 autor = p['Autor']
                 #print(title)
-                if autor == autor:
-                    AutorArray.append(title)
-                    AutorArray.sort()
+                if name == autor or lastname == autor:
+                    autorarray.append(title)
+                    autorarray.sort()
 
-            print('books: ' , AutorArray[0],AutorArray[1],AutorArray[2],)
+            if len(autorarray)>2:
+                print('books: ' , autorarray[0],autorarray[1],autorarray[2])
+            elif len(autorarray)==2:
+                print('books: ' , autorarray[0],autorarray[1])
+            elif len(autorarray)==1:
+                print('books: ' , autorarray[0])
+            else:
+                print('No Books for this autor yet')
+            print('-------------------------------------------')
 
     

@@ -1,10 +1,10 @@
 import re
 
 
-def run_check_Pages():
+def run_Check_Pages():
     check = False
     while check == False:
-        page = input('Enter Pages')
+        page = input('How many Pages does the Book Have?: ')
         pattern = re.compile("^[0-9]*$")
         if pattern.match(page):
             check = True

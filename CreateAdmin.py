@@ -5,12 +5,11 @@ from AdminAuth import Authentification
 def run_Create_Admin():
     LoginAuthentification = False
     auth = Authentification(LoginAuthentification)
-    auth = auth.getAuthentification()
+    auth = auth.getauthentification()
     print(auth)
     if auth == True:
-        print('nice')
-        Inputname = input('enter Name: ')
-        Inputpassword = input('enter Password: ')
+        inputname = input('Enter Username: ')
+        inputpassword = input('Enter Password: ')
 
         with open('Admins.json') as json_file:
             data = json.load(json_file)
@@ -27,8 +26,8 @@ def run_Create_Admin():
         with open('Admins.json') as json_file: 
             data = json.load(json_file) 
             temp = data['Admin'] 
-            y = {"Name": Inputname, 
-                 "Password": Inputpassword,
+            y = {"Name": inputname, 
+                 "Password": inputpassword,
                  "AdminNumber": anzahl,
                  "Auth": False
                 }  

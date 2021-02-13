@@ -2,24 +2,24 @@
 class AutorInfo():
     def __init__(self, Name, LastName, Birthdate, Gender, NumberofBooks):
 
-        self.Name = Name
-        self.LastName =LastName
-        self.Birthdate = Birthdate
-        self.Gender = Gender
-        self.NumberofBooks = NumberofBooks
+        self.name = Name
+        self.lastname =LastName
+        self.birthdate = Birthdate
+        self.gender = Gender
+        self.numberofbooks = NumberofBooks
 
-    def getAutorName(self):
-        return self.Name
+    def getautorname(self):
+        return self.name
     
-    def getLastName(self):
-        return self.LastName
+    def getlastname(self):
+        return self.lastname
     
-    def getBirthdate(self):
-        return self.Birthdate
+    def getbirthdate(self):
+        return self.birthdate
     
-    def getGender(self):
-        return self.Gender
+    def getgender(self):
+        return self.gender
     
-    def getNumberofBooks(self):
-        return self.NumberofBooks
+    def getnumberofbooks(self):
+        return self.numberofbooks
     

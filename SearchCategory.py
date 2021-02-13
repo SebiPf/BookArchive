@@ -1,14 +1,14 @@
 import json
 from Book import Book
-from GetCategories import run_categories
-from SearchBook import run_search_book
+from GetCategories import run_Categories
+from SearchBook import run_Search_Book
 from AdminAuth import Authentification
 
-def run_search_Category():
+def run_Search_Category():
     check = False
     while check == False:
-        inputCategory = input('What Category would you like to search?')
-        with open('Bookslist.json') as json_file:
+        inputCategory = input('What Category would you like to search?: ')
+        with open('BooksList.json') as json_file:
     
             data = json.load(json_file)
         for p in data['book']:
@@ -17,20 +17,23 @@ def run_search_Category():
             if inputCategory == cattype:
                 print('Title: ' + book.gettitle())
 
-                answer = input('would you like to get trasfered to Book search so you can get the details of one of those Books? (yes/no): ')
-                if answer == ('yes'):
-                    run_search_book()
-                else:
-                    print('you will get returned to the main Menue!')
+                
                 check = True
         if check == False:
-            print('please check your spelling')
+            print('either there are no Books in that Category or you spelled it wrong')
             print('Those are your Options')
-            run_categories()
+            run_Categories()
 
-        LoginAuthentification = False
-        auth = Authentification(LoginAuthentification)
-        auth = auth.getAuthentification()
+        answer = input('would you like to get trasfered to Book search so you can get the details of one of those Books? (yes/no): ')
+        if answer == ('yes'):
+            run_Search_Book()
+        else:
+            print('you will get returned to the main Menue!')
+            check = True
+
+        loginauthentification = False
+        auth = Authentification(loginauthentification)
+        auth = auth.getauthentification()
 
         with open('UserData.json') as json_file: 
             data = json.load(json_file)

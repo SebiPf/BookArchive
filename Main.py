@@ -1,18 +1,18 @@
 import json
-from GetBookInfo import run_Book_list
-from CreateBook import run_create_book
-from CreateCategory import run_create_Category
+from GetBookInfo import run_Book_List
+from CreateBook import run_Create_Book
+from CreateCategory import run_Create_Category
 from CreateAdmin import run_Create_Admin
 from Login import run_Login
-from SearchAutor import run_Autor_Search
+from SearchAutor import run_Search_Autor
 from GetAutors import run_Autors
-from SearchBook import run_search_book
-from SearchCategory import run_search_Category
+from SearchBook import run_Search_Book
+from SearchCategory import run_Search_Category
 from GetNumberview import run_Number_Viewed
 from CreateAutor import run_Create_Autor
-from GetCategories import run_categories
+from GetCategories import run_Categories
 from Exit import run_Exit
-from Restart import run_restart
+from Restart import run_Restart
 
 
 class Main:
@@ -38,48 +38,59 @@ class Main:
         selection = input('Type the Number here: ')
         #selection = int(selection)
         #print(selection)
+        exitbool = False
         if selection == '1':
-            run_search_book()
-            run_restart()
+            while exitbool == False:
+                run_Search_Book()
+                exitbool = run_Restart()
         elif selection == '2':
-            run_search_Category()
-            run_restart()
+            while exitbool == False:
+                run_Search_Category()
+                exitbool = run_Restart()
         elif selection == '3':
-            run_Autor_Search()
-            run_restart()
+            while exitbool == False:
+                run_Search_Autor()
+                exitbool = run_Restart()
         elif selection == '4':
-            run_categories()
-            run_restart()
+            while exitbool == False:
+                run_Categories()
+                exitbool = run_Restart()
         elif selection == '5':
-            run_Autors()
-            run_restart()
+            while exitbool == False:
+                run_Autors()
+                exitbool = run_Restart()
         elif selection == '6':
-            run_Book_list()
-            run_restart()
+            while exitbool == False:
+                run_Book_List()
+                exitbool = run_Restart()
         elif selection == '7':
-            run_Number_Viewed()
-            run_restart()
+            while exitbool == False:
+                run_Number_Viewed()
+                exitbool = run_Restart()
         elif selection == '8':
             run_Login()
-            run_restart()
         elif selection == '9':
-            run_create_book()
-            run_restart()
+            while exitbool == False:
+                run_Create_Book()
+                exitbool = run_Restart()
         elif selection == '10':
-            run_Create_Autor()
-            run_restart()
+            while exitbool == False:
+                run_Create_Autor()
+                exitbool = run_Restart()
         elif selection == '11':
-            run_create_Category()
-            run_restart()
+            while exitbool == False:
+                run_Create_Category()
+                exitbool = run_Restart()
         elif selection == '12':
-            run_Create_Admin()
-            run_restart()
+            while exitbool == False:
+                run_Create_Admin()
+                exitbool = run_Restart()
         elif selection == '13':
             exitprogramm = run_Exit()
         
         else:
             print('Please type in a Number')
-            run_restart()
+            run_Restart()
 
 
 

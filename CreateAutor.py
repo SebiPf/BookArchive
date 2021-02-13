@@ -2,27 +2,26 @@ import json
 import re
 from AdminAuth import Authentification
 from Login import run_Login
-from CheckDate import run_check_Structure
-from CheckName import run_check_Name
+from CheckDate import run_Check_Structure
+from CheckName import run_Check_Name
 
 def run_Create_Autor():
     
-    LoginAuthentification = False
-    auth = Authentification(LoginAuthentification)
-    auth = auth.getAuthentification()
+    loginauthentification = False
+    auth = Authentification(loginauthentification)
+    auth = auth.getauthentification()
 
     if auth == True:
-        print('nice')
-        InputName = run_check_Name()
-        InputLastName = run_check_Name()
+        inputName = run_Check_Name()
+        inputLastName = run_Check_Name()
         #Date = input('Birthdate: ')
-        InputBirthdate = run_check_Structure()
+        inputBirthdate = run_Check_Structure()
 
 
 
-        InputGender = input('Gender: ')
+        inputGender = input('Gender: ')
 
-        with open('Autorlist.json') as json_file:
+        with open('AutorList.json') as json_file:
             data = json.load(json_file)
         for p in data['Autor']:
             anzahl = p['AutorNumber']
@@ -31,20 +30,20 @@ def run_Create_Autor():
 
 
 
-        def write_json(data, filename='Autorlist.json'): 
+        def write_json(data, filename='AutorList.json'): 
             with open(filename,'w') as f: 
                 json.dump(data, f, indent=4) 
       
       
-        with open('Autorlist.json') as json_file: 
+        with open('AutorList.json') as json_file: 
             data = json.load(json_file) 
             temp = data['Autor'] 
-            y = {"Name": InputName,
-                "LastName": InputLastName,
-                "Birthdate": InputBirthdate,
-                "Gender": InputGender,
+            y = {"Name": inputName,
+                "LastName": inputLastName,
+                "Birthdate": inputBirthdate,
+                "Gender": inputGender,
                 "NumberofBooks": 0,
-                "Autornumber": anzahl
+                "AutorNumber": anzahl
                 }  
             temp.append(y) 
   

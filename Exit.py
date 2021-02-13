@@ -10,6 +10,9 @@ def run_Exit():
     for p in data['User']:
         p['NumberCategory'] = 0
         p['NumberViewed'] = 0 
+    for p in data['Admin']:
+        p['NumberCategory'] = 0
+        p['NumberViewed'] = 0
     
     with open('UserData.json'  , 'w') as file:
         json.dump(data, file, indent=2)

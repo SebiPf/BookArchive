@@ -1,52 +1,52 @@
 {
-  "Autor": [
-    {
-      "Name": "hdr",
-      "LastName": "1995",
-      "Birthdate": "J.R.R. Tolkin",
-      "Gender": "hasbro",
-      "NumberofBooks": 4,
-      "AutorNumber": "b1"
-    },
-    {
-      "Name": "jhon",
-      "LastName": "Bro",
-      "Birthdate": "01.01.1668",
-      "Gender": "Male",
-      "NumberofBooks": 0,
-      "AutorNumber": "b11"
-    },
-    {
-      "Name": "jeff",
-      "LastName": "joe",
-      "Birthdate": "10/10/1996",
-      "Gender": "Male",
-      "NumberofBooks": 0,
-      "AutorNumber": "b111"
-    },
-    {
-      "Name": "mau",
-      "LastName": "le",
-      "Birthdate": "19/16/1999",
-      "Gender": "30/12/1999",
-      "NumberofBooks": 0,
-      "AutorNumber": "b1111"
-    },
-    {
-      "Name": "bob",
-      "LastName": "ross",
-      "Birthdate": "2020-02-29 00:00:00",
-      "Gender": "Male",
-      "NumberofBooks": 2,
-      "AutorNumber": "b11111"
-    },
-    {
-      "Name": "asd",
-      "LastName": "aw",
-      "Birthdate": "1996-12-12 00:00:00",
-      "Gender": "Male",
-      "NumberofBooks": 4,
-      "AutorNumber": "b111111"
-    }
-  ]
+    "Autor": [
+        {
+            "Name": "Barack",
+            "LastName": "Obama",
+            "Birthdate": "1961-09-04 00:00:00",
+            "Gender": "Male",
+            "NumberofBooks": 3,
+            "AutorNumber": "b1"
+        },
+        {
+            "Name": "Joanne-K",
+            "LastName": "Rowling",
+            "Birthdate": "1965-07-31 00:00:00",
+            "Gender": "Female",
+            "NumberofBooks": 5,
+            "AutorNumber": "b11"
+        },
+        {
+            "Name": "John-Ronald-Reuel",
+            "LastName": "Tolkien",
+            "Birthdate": "1892-01-03 00:00:00",
+            "Gender": "Male",
+            "NumberofBooks": 3,
+            "AutorNumber": "b111"
+        },
+        {
+            "Name": "Michelle",
+            "LastName": "Obama",
+            "Birthdate": "1964-01-17 00:00:00",
+            "Gender": "Female",
+            "NumberofBooks": 1,
+            "AutorNumber": "b1111"
+        },
+        {
+            "Name": "Jeff",
+            "LastName": "Kinney",
+            "Birthdate": "1971-02-19 00:00:00",
+            "Gender": "Male",
+            "NumberofBooks": 2,
+            "AutorNumber": "b11111"
+        },
+        {
+            "Name": "Lewis",
+            "LastName": "Carroll",
+            "Birthdate": "1832-01-27 00:00:00",
+            "Gender": "Male",
+            "NumberofBooks": 0,
+            "AutorNumber": "b111111"
+        }
+    ]
 }

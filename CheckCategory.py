@@ -6,7 +6,7 @@ class CheckCategories:
     
     def __init__(self, Inputtype):
         
-        with open('Categorylist.json') as json_file:
+        with open('CategoryList.json') as json_file:
             data = json.load(json_file)
 
             checksum = False

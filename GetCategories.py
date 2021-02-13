@@ -1,10 +1,10 @@
 import json
-def run_categories():
+def run_Categories():
     
-    with open('Categorylist.json') as json_file:
+    with open('CategoryList.json') as json_file:
         data = json.load(json_file)
         for p in data['Categories']:
-            print(p['Category'])
+            print('- ', p['Category'])
 
     
 

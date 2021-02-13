@@ -21,8 +21,24 @@
             "CategoryNumber": 5
         },
         {
-            "Category": "Heavy",
+            "Category": "Lifestyle",
             "CategoryNumber": 6
+        },
+        {
+            "Category": "Politics",
+            "CategoryNumber": 7
+        },
+        {
+            "Category": "Food",
+            "CategoryNumber": 8
+        },
+        {
+            "Category": "History",
+            "CategoryNumber": 9
+        },
+        {
+            "Category": "Education",
+            "CategoryNumber": 10
         }
     ]
 }

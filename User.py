@@ -1,12 +1,12 @@
-from GetBookInfo import run_Book_list
+
 
 class Userdata():
     def __init__(self,NumberCategory, NumberViewed):
-        self.Number = NumberViewed
-        self.NumberCat = NumberCategory
+        self.number = NumberViewed
+        self.numbercat = NumberCategory
 
-    def getNumberViewd(self):
-        return self.Number
+    def getnumberviewd(self):
+        return self.number
     
-    def getNumberCategory(self):
-        return self.NumberCat
+    def getnumbercategory(self):
+        return self.numbercat
