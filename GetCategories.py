@@ -5,6 +5,7 @@ def run_Categories():
         data = json.load(json_file)
         for p in data['Categories']:
             print('- ', p['Category'])
+            print('------------------------------------')
 
     
 

@@ -11,7 +11,7 @@ def run_Search_Book():
         title = book.gettitle()
         isbn = book.getisbn()
         check = False
-        if inputBook in title or inputBook == isbn:
+        if inputBook in title or inputBook in isbn:
             print('Title: ' + book.gettitle())
             print('Release: ' , book.getyear())
             print('Autor: ' , book.getautor())
