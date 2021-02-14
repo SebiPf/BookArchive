@@ -6,9 +6,9 @@ def run_Autors():
         data = json.load(json_file)
         for p in data['Autor']:
             print(p['Name'])
-            name = p['Name']
-            lastname = p['LastName']
             print(p['LastName'])
+            print('Autor id', p['AutorNumber'])
+            autorid = p['AutorNumber']
 
             with open('BooksList.json') as json_file:
     
@@ -19,7 +19,7 @@ def run_Autors():
                 title = book.gettitle()
                 autor = p['Autor']
                 #print(title)
-                if name == autor or lastname == autor:
+                if autorid == autor:
                     autorarray.append(title)
                     autorarray.sort()
 

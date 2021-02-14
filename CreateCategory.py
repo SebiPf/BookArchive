@@ -15,7 +15,7 @@ def run_Create_Category():
             data = json.load(json_file)
         for p in data['Categories']:
             anzahl = p['CategoryNumber']
-        anzahl = anzahl + 1 
+        anzahl = anzahl + '1'
 
         def write_json(data, filename='CategoryList.json'): 
             with open(filename,'w') as f: 

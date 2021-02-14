@@ -60,7 +60,7 @@ def run_Create_Book():
             data = json.load(json_file)
 
             for p in data['Autor']:
-                if inputautor == p['Name'] or inputautor == p['LastName']:
+                if inputautor == p['AutorNumber']:
                     p['NumberofBooks'] = p['NumberofBooks'] + 1 
             
         with open('AutorList.json'  , 'w') as file:

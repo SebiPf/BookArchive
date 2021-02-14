@@ -25,7 +25,7 @@ def run_Create_Autor():
             data = json.load(json_file)
         for p in data['Autor']:
             anzahl = p['AutorNumber']
-        anzahl = anzahl + '1'
+        anzahl = anzahl + 1
 
 
 

@@ -1,7 +1,7 @@
 {
     "book": [
         {
-            "Autor": "Obama",
+            "Autor": 1,
             "Category": "Politics",
             "ISBN": "978-3328600626",
             "Pages": "1024",
@@ -10,7 +10,7 @@
             "Title": "Ein verhei\u00dfenes Land"
         },
         {
-            "Autor": "Rowling",
+            "Autor": 2,
             "Category": "Fantasy",
             "ISBN": "978-3551354013",
             "Pages": "336",
@@ -19,7 +19,7 @@
             "Title": "Harry Potter und der Stein der Weisen"
         },
         {
-            "Autor": "Rowling",
+            "Autor": 2,
             "Category": "Fantasy",
             "ISBN": "978-3551354037",
             "Pages": "448",
@@ -28,7 +28,7 @@
             "Title": "Harry Potter und der Gefangene von Askaban"
         },
         {
-            "Autor": "Rowling",
+            "Autor": 2,
             "Category": "Fantasy",
             "ISBN": "978-3551354051",
             "Pages": "960",
@@ -37,7 +37,7 @@
             "Title": "Harry Potter und der Orden des Ph\u00f6nix"
         },
         {
-            "Autor": "Rowling",
+            "Autor": 2,
             "Category": "Fantasy",
             "ISBN": "978-3551354075",
             "Pages": "752",
@@ -46,7 +46,7 @@
             "Title": "Harry Potter und die Heiligt\u00fcmer des Todes"
         },
         {
-            "Autor": "Tolkien",
+            "Autor": 3,
             "Category": "Fantasy",
             "ISBN": "978-3608939811",
             "Pages": "608",
@@ -55,7 +55,7 @@
             "Title": "Der Herr der Ringe - Die Gef\u00e4hrten"
         },
         {
-            "Autor": "Tolkien",
+            "Autor": 3,
             "Category": "Fantasy",
             "ISBN": "978-3608939828",
             "Pages": "510",
@@ -64,7 +64,7 @@
             "Title": "Der Herr der Ringe - Die zwei T\u00fcrme"
         },
         {
-            "Autor": "Tolkien",
+            "Autor": 3,
             "Category": "Fantasy",
             "ISBN": "978-3608939835",
             "Pages": "444",
@@ -73,7 +73,7 @@
             "Title": "Der Herr der Ringe - Die R\u00fcckkehr des K\u00f6nigs"
         },
         {
-            "Autor": "Kinney",
+            "Autor": 5,
             "Category": "Comedy",
             "ISBN": "978-3843211086",
             "Pages": "448",
@@ -82,7 +82,7 @@
             "Title": "Gregs Tagebuch - Band 1 und 2"
         },
         {
-            "Autor": "Kinney",
+            "Autor": 5,
             "Category": "Comedy",
             "ISBN": "978-3843200721",
             "Pages": "448",
@@ -91,7 +91,7 @@
             "Title": "Gregs Tagebuch \u2013 Band 3 und 4"
         },
         {
-            "Autor": "Michelle",
+            "Autor": 4,
             "Category": "Politics",
             "ISBN": "978-1524763145",
             "Pages": "464",
@@ -100,7 +100,7 @@
             "Title": "Becoming"
         },
         {
-            "Autor": "Rowling",
+            "Autor": 2,
             "Category": "Fantasy",
             "ISBN": "978-3551354044",
             "Pages": "704",

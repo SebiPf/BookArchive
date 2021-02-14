@@ -5,17 +5,18 @@ from CreateAutor import run_Create_Autor
 def run_Check_Autor():
     check = False
     while check == False:
-        print('Enter one of the following Autors')
+        print('Enter one of the following Autors IDs')
         print('or enter new Autor to go to create Autor')
         run_Autors()
-        i = input('Autor: ')
+        i = input('Autor id: ')
+        i = int(i)
         with open('AutorList.json') as json_file:
             data = json.load(json_file)
 
         for p in data['Autor']:
-            name = p['Name']
-            lastname = p['LastName']
-            if i == name or i == lastname:
+            autorid = p['AutorNumber']
+            
+            if i == autorid:
                 inputautor = i
                 check = True
         if i == 'new Autor':
@@ -23,7 +24,7 @@ def run_Check_Autor():
             with open('AutorList.json') as json_file:
                 data = json.load(json_file)
             for p in data['Autor']:
-                inputautor = p['Name']
+                inputautor = p['AutorNumber']
             check = True
 
         if check == False:

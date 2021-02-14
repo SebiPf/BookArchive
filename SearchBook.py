@@ -2,7 +2,7 @@ import json
 from Book import Book
 from AdminAuth import Authentification
 def run_Search_Book():
-    inputBook = input('what Bokk are you searching for?: ')
+    inputBook = input('what Book are you searching for?: ')
     with open('BooksList.json') as json_file:
     
         data = json.load(json_file)
