@@ -11,8 +11,8 @@ def run_Number_Viewed():
         if auth == True:
             for p in data['Admin']:
                 print('You looked up: ' , p['NumberViewed'] , ' Book(s)')
-                print('and lokked up: ' , p['NumberCategory'] , 'Categorie(s)')
+                print('and looked up: ' , p['NumberCategory'] , 'Categorie(s)')
         else:
             for p in data['User']:
                 print('You looked up: ' , p['NumberViewed'] , ' Book(s)')
-                print('and lokked up: ' , p['NumberCategory'] , 'Categorie(s)')
+                print('and looked up: ' , p['NumberCategory'] , 'Categorie(s)')

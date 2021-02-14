@@ -21,7 +21,7 @@ def run_Create_Book():
         inputautor = run_Check_Autor()
         inputpublisher = input('Publisher: ')
         inputisbn13 = input('ISBN-13: ')
-        print('please type one of the following Categories')
+        print('Please type one of the following categories: ')
         run_Categories()
         inputtype = input('Category: ')
         if inputtype == (''):
@@ -66,6 +66,6 @@ def run_Create_Book():
         with open('AutorList.json'  , 'w') as file:
             json.dump(data, file, indent=2)
     else:
-        print('please log in')
+        print('Please log in.')
         
         

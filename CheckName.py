@@ -9,5 +9,5 @@ def run_Check_Name():
         if pattern.match(name):
             check = True
         else:
-            print('Your input should only contain Letters or be seperated by - and contain Capital letter (Marie-Luise would work but not marie-luise')
+            print('Your input should only contain letters and/or be seperated by "-" and contain capital letters ("Marie-Luise" would work but not "marie-luise"')
     return name

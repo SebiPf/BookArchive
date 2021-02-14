@@ -33,7 +33,7 @@ def run_Create_Category():
         write_json(data) 
 
     else:
-        print('please log in')
+        print('Please log in.')
 
 
 

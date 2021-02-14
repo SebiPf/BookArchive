@@ -24,17 +24,17 @@ class Main:
         print('Your Options are:')
         print('1. Search a Book')
         print('2. Search a Category')
-        print('3. Search a Autor')
+        print('3. Search a Author')
         print('4. Show all Categories')
-        print('5. Show all Autors')
+        print('5. Show all Authors')
         print('6. Show all Books')
         print('7. Show Number of viewed Books/Categories')
         print('8. Log in as Admin')
-        print('9. Create a Book(Needs Admin rights)')
-        print('10. Create a Autor(Needs Admin rights)')
-        print('11. Create a Category(Needs Admin rights)')
-        print('12. Create a Admin(Needs Admin rights)')
-        print('13. Exite the Programm')
+        print('9. Create a Book (needs Admin rights)')
+        print('10. Create a Author (needs Admin rights)')
+        print('11. Create a Category (needs Admin rights)')
+        print('12. Create a Admin (needs Admin rights)')
+        print('13. Exit the program')
         selection = input('Type the Number here: ')
         #selection = int(selection)
         #print(selection)
@@ -89,7 +89,7 @@ class Main:
             exitprogramm = run_Exit()
         
         else:
-            print('Please type in a Number')
+            print('Please type in a number.')
             run_Restart()
 
 

@@ -1,5 +1,5 @@
 import json
-
+import getpass
 
 def run_Login():
    
@@ -8,16 +8,17 @@ def run_Login():
             auth = False
             while auth == False:
                 testusername = input('Enter your username: ')
-                testpassword = input('Enter your password: ')
+                testpassword = getpass.getpass('Enter your password: ')
             
                 for p in data['Admin']:
                     if testusername == p['Name'] and testpassword == p['Password']:
                         p['Auth'] = True
                         auth = True
+                        print('You`re now logged in.')
                         break
                     else:
-                        print('please try again')
-                        print('if you want to cancel type end as username')
+                        print('Please try again.')
+                        print('If you want to cancel type "end" as username.')
 
                 if testusername == 'end':
                     break

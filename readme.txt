@@ -10,6 +10,7 @@ Setup guide:
     - Name: Fleig
     - Password": Pa123
     but feel free to create a new Admin afterwards
+- The Menue Point 13 will reset the programm and log you out
 
 - Capital letters when searching something are important!!!
 

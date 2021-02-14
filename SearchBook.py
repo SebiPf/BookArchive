@@ -3,6 +3,7 @@ from Book import Book
 from AdminAuth import Authentification
 def run_Search_Book():
     inputBook = input('what Book are you searching for?: ')
+    check = False
     with open('BooksList.json') as json_file:
     
         data = json.load(json_file)
@@ -10,11 +11,11 @@ def run_Search_Book():
         book = Book(p['Title'], p['Release'], p['Autor'], p['Publisher'], p['ISBN'], p['Category'], p['Pages'])
         title = book.gettitle()
         isbn = book.getisbn()
-        check = False
+        
         if inputBook in title or inputBook in isbn:
             print('Title: ' + book.gettitle())
             print('Release: ' , book.getyear())
-            print('Autor: ' , book.getautor())
+            print('Author: ' , book.getautor())
             print('Publisher: ' , book.getpublisher())
             print('ISBN-13: ' , book.getisbn())
             print('Category: ' , book.getbooktype())

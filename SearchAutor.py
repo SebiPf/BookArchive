@@ -3,7 +3,7 @@ from Autor import AutorInfo
 from Book import Book
 
 def run_Search_Autor():
-    i = input('Enter autor Name: ')
+    i = input('Enter author name: ')
 
     with open('AutorList.json') as json_file:
         data = json.load(json_file)
@@ -17,9 +17,9 @@ def run_Search_Autor():
             #print('Birthday: ' , autor.getbirthdate()),
             #print('Gender: ' , autor.getgender()),
             #print('NumberofBooks: ' , autor.getnumberofbooks())
-            print('Autor ID: ', autor.getautornumber())
-            antwort = input('is this the Autor you are searching for?(Yes/No): ')
-            if antwort == 'Yes':
+            print('Author ID: ', autor.getautornumber())
+            antwort = input('is this the Autor you are searching for? (Yes/No): ')
+            if antwort == 'Yes' or antwort == 'yes':
                 print('Name: ' , autor.getautorname())
                 print('LastName: ' , autor.getlastname()),
                 print('Birthday: ' , autor.getbirthdate()),
@@ -51,9 +51,7 @@ def run_Search_Autor():
                     print('books: ' , autorarray[0])
                     print(release)
                 else:
-                    print('No Books for this autor yet')
-            else:
-                print('ok')
+                    print('No Books for this author yet...')
                 
         
     

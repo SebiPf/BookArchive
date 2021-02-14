@@ -5,7 +5,7 @@ def run_Check_Structure():
     check = False
     
     while check == False:
-        date = input('Enter Date: DDMMYYYY: ')
+        date = input('Enter Date (DDMMYYYY): ')
         date = int(date)
         day = date / 1000000
         day = int(day)

@@ -107,6 +107,15 @@
             "Publisher": "Carlsen",
             "Release": "2008",
             "Title": "Harry Potter und der Feuerkelch"
+        },
+        {
+            "Autor": 6,
+            "Category": "Education",
+            "ISBN": "123",
+            "Pages": "1",
+            "Publisher": "hallo",
+            "Release": "1",
+            "Title": "asd"
         }
     ]
 }
