@@ -28,7 +28,7 @@ def run_Search_Category():
         if answer == ('yes'):
             run_Search_Book()
         else:
-            print('you will get returned to the main Menue!')
+            print('you will get returned to the main menu!')
             check = True
 
         loginauthentification = False
