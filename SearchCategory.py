@@ -24,7 +24,7 @@ def run_Search_Category():
             print('Those are your Options')
             run_Categories()
 
-        answer = input('would you like to get trasfered to Book search so you can get the details of one of those Books? (yes/no): ')
+        answer = input('would you like to get transferred to Book search so you can get the details of one of those Books? (yes/no): ')
         if answer == ('yes'):
             run_Search_Book()
         else:
